@@ -14,7 +14,11 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        //NSLog(@"Hello, World!");
+        printf("Meu primeiro programa.\n");
+        int valorConta = 1000000;
+        int valorConta2 = 2000000;
+        printf("O valor em conta é de R$ %i, %i \n", valorConta, valorConta2);
         
     }
     return 0;
